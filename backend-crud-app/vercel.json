@@ -5,7 +5,7 @@
       "src": "user/package.json", 
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "user/dist"
+        "distDir": "user/dist" 
       }
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "user/dist/$1"
+      "dest": "user/dist/$1" 
     }
   ]
 }
