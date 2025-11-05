@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "user/index.html",
+      "src": "user/package.json", 
       "use": "@vercel/static-build",
       "config": {
         "distDir": "user/dist"
